@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TestApi.Common.Entities\TestApi.Common.Entities.csproj" />
+      <ProjectReference Include="..\TestApi\TestApi.csproj" />
+    </ItemGroup>
+
+</Project>
